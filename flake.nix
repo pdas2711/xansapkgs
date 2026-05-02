@@ -1,5 +1,5 @@
 {
-	description = "Linux Server to share audio with Android client";
+	description = "xansapkgs - custom nix derivations for packaging software";
 	inputs = {
 		nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
 		audioshare = {
