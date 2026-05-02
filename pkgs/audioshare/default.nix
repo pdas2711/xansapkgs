@@ -7,11 +7,7 @@
 		autoPatchelfHook
 	];
 	buildInputs = with pkgs; [
-		gcc
 		asio
-		protobuf
-		cxxopts
-		spdlog
 		pipewire
 	];
 	installPhase = ''
