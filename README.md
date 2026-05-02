@@ -4,5 +4,5 @@ This is a custom repository for nix package derivations for personal use. These 
 
 ## Packages
 
-- [audioshare](https://github.com/mkckr0/audio-share) *(Broken at the moment)*
+- [audioshare](https://github.com/mkckr0/audio-share)
 - [pomo](https://github.com/Bahaaio/pomo/)
