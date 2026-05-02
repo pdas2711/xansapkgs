@@ -12,9 +12,12 @@
 		protobuf
 		cxxopts
 		spdlog
+		pipewire
 	];
 	installPhase = ''
+		runHook preInstall
 		mkdir -p $out/bin
-		cp out/install/linux-Release/bin/as-cmd $out/bin/${pname}
+		cp ./bin/as-cmd $out/bin/${pname}
+		runHook postInstall
 	'';
 }
