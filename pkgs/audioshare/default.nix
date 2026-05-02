@@ -1,8 +1,8 @@
-{ inputs, stdenv, pkgs, ... }: stdenv.mkDerivation rec {
+{ stdenv, pkgs, src, ... }: stdenv.mkDerivation rec {
 	pname = "audioshare";
 	version = "0.3.4";
 	name = "${pname}-${version}";
-	src = inputs.audioshare;
+	inherit src;
 	nativeBuildInputs = with pkgs; [
 		autoPatchelfHook
 	];

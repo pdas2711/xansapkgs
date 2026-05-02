@@ -13,6 +13,6 @@
 		system = "x86_64-linux";
 		pkgs = nixpkgs.legacyPackages.${system};
 	in {
-		packages.${system}.default = pkgs.callPackage ./default.nix { inherit inputs; };
+		packages.${system}.default = pkgs.callPackage ./pkgs/audioshare/default.nix { src = inputs.audioshare; };
 	};
 }
