@@ -29,10 +29,27 @@
         "type": "github"
       }
     },
+    "pomo": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1773439417,
+        "narHash": "sha256-gQ7bHQGaQPujpOwVdcwKgiYQjUECi/Pjt5LKwa1v1J8=",
+        "ref": "refs/heads/main",
+        "rev": "d2c59a04f1a23eb3897ac4fb31ecc7cd7c23c182",
+        "revCount": 158,
+        "type": "git",
+        "url": "https://github.com/Bahaaio/pomo.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/Bahaaio/pomo.git"
+      }
+    },
     "root": {
       "inputs": {
         "audioshare": "audioshare",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "pomo": "pomo"
       }
     }
   },
