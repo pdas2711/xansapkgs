@@ -1,5 +1,5 @@
 {
-	description = "xansapkgs - custom nix derivations for packaging software";
+	description = "xwpkgs - custom nix derivations for packaging software";
 	inputs = {
 		nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
 		audioshare = {
